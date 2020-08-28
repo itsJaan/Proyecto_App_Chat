@@ -1,0 +1,41 @@
+<div class="card container my-5">
+    <div class="card-body">
+        <h3 class="card-title text-center" >Login</h3>
+        <div class="card-text">
+            <form>
+                <div class="form-group">
+                    <label class="h5" >Username:</label>
+                    <input class="form-control" name="username" type="text" >
+                </div>
+                <div class="form-group">
+                    <label class="h5">Password:</label>
+                    <input class="form-control" name="password" type="password" >
+                </div>
+                    <button type="submit" class="btn btn-block btn-lg btn-primary" routerLink="/registry">Registry</button>
+                    <button type="submit" class="btn btn-block btn-lg btn-success" >Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h2 class="card-title">Usuarios </h2>
+        <div class="card-text">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <th>Username</th>
+                        <th>Name</th>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let user of users">
+                            <td>{{user.username}}</td>
+                            <td>{{user.name}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
