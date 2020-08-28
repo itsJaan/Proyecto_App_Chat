@@ -1,0 +1,15 @@
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\bin\Debug\netcoreapp3.1\BackEnd.Data.deps.json
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\bin\Debug\netcoreapp3.1\BackEnd.Data.dll
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\obj\Debug\netcoreapp3.1\BackEnd.Data.csprojAssemblyReference.cache
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\obj\Debug\netcoreapp3.1\BackEnd.Data.AssemblyInfoInputs.cache
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\obj\Debug\netcoreapp3.1\BackEnd.Data.AssemblyInfo.cs
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\bin\Debug\netcoreapp3.1\BackEnd.Data.runtimeconfig.json
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\bin\Debug\netcoreapp3.1\BackEnd.Data.runtimeconfig.dev.json
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\obj\Debug\netcoreapp3.1\BackEnd.Data.genruntimeconfig.cache
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\bin\Debug\netcoreapp3.1\BackEnd.Data.pdb
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\obj\Debug\netcoreapp3.1\BackEnd.Data.csproj.CoreCompileInputs.cache
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\obj\Debug\netcoreapp3.1\BackEnd.Data.dll
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\obj\Debug\netcoreapp3.1\BackEnd.Data.pdb
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\bin\Debug\netcoreapp3.1\BackEnd.Core.dll
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\bin\Debug\netcoreapp3.1\BackEnd.Core.pdb
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Data\obj\Debug\netcoreapp3.1\BackEnd.Data.csproj.CopyComplete

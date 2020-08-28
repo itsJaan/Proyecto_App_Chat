@@ -1,0 +1,14 @@
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Services.deps.json
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Services.dll
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Services.pdb
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Core.dll
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Data.dll
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Core.pdb
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Data.pdb
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.csprojAssemblyReference.cache
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.AssemblyInfoInputs.cache
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.AssemblyInfo.cs
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.csproj.CoreCompileInputs.cache
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.csproj.CopyComplete
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.dll
+C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.pdb

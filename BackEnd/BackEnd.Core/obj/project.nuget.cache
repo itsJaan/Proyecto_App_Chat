@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/A5xUaS79rUrxOPV8ZGw4bBO1oyqwO7i8eNuqjzoFZOZTnUBaWnD6DT71yYuM9dZ8j6pBHHDsa6e5CZplAeLgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ItsJaan\\Desktop\\Proyecto_AppVAnguardia_2020\\BackEnd\\BackEnd.Core\\BackEnd.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ItsJaan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
