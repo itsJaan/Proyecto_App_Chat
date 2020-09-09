@@ -37,6 +37,8 @@ namespace BackEnd.Api
             services.AddDbContext<BackEndDataContext>();
             services.AddScoped<IRepository<User>, UserRepository>();
             services.AddScoped<IRepository<Channel>, ChannelRepository>();
+            services.AddScoped<IRepository<Message>, MessageRepository>();
+            services.AddScoped<IMessageService, MessageService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IChannelService, ChannelService>();
         }
@@ -53,7 +55,7 @@ namespace BackEnd.Api
 
             app.UseRouting();
 
-            app.UseCors(options => options.AllowAnyOrigin());
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
             app.UseAuthorization();
 

@@ -11,9 +11,11 @@ namespace BackEnd.Data
 
         public DbSet<Channel> Channel { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
-            optionsBuilder.UseSqlite("Data Source= C:\\Users\\ItsJaan\\Desktop\\Proyecto_AppVAnguardia_2020\\BackEnd\\BackEnd.Data\\Database.db");
-    }
+        public DbSet<Message> Message { get; set; }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
+            optionsBuilder.UseSqlite("Data Source= Database.db");
+    }
+    //C:\\Users\\David\\Desktop\\Proyecto_App_Chat\\BackEnd\\BackEnd.Data\\
 }
 

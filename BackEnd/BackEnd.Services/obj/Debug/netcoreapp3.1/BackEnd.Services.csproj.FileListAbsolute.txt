@@ -12,3 +12,17 @@ C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\ob
 C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.csproj.CopyComplete
 C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.dll
 C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.pdb
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Services.deps.json
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Services.dll
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Services.pdb
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Core.dll
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Data.dll
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Core.pdb
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\bin\Debug\netcoreapp3.1\BackEnd.Data.pdb
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.csprojAssemblyReference.cache
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.AssemblyInfoInputs.cache
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.AssemblyInfo.cs
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.csproj.CoreCompileInputs.cache
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.csproj.CopyComplete
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.dll
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Services\obj\Debug\netcoreapp3.1\BackEnd.Services.pdb

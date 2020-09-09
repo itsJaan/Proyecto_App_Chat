@@ -1,0 +1,8 @@
+<div class="card" style="width: 22rem; height: 40rem;">
+    <div class="card-header text-center h4" style="border-block-width: 1cm;">
+      Canales
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item h6" style=background-color:lightgreen; *ngFor="let channel of channels" (click)="showChannelChat(channel)">{{channel.name}}</li>  
+    </ul>
+</div>

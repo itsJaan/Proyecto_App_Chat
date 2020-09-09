@@ -7,6 +7,7 @@ import { LoginModule } from './login/login.module'
 import { RegistryModule } from './registry/registry.module'
 import { CoreModule } from './core/core.module'
 import { ReactiveFormsModule } from '@angular/forms';
+import { DashboardModule } from './dashboard/dashboard.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     LoginModule,
     RegistryModule,
+    DashboardModule,
     CoreModule,
     ReactiveFormsModule
   ],

@@ -3,24 +3,24 @@
     <div class="card-body">
         <h3 class="card-title text-center" >Registrarse</h3>
         <div class="card-text">
-            <form (ngSubmit)="onSubmit();" [formGroup]="form">
+            <form (ngSubmit)="onSubmit(form);" #form="ngForm">
                 
                 <div class="form-group">
-                    <label class="h5">Username:</label>
-                    <input formControlName="username"  type="text" class="form-control"  >
+                    <label class="h5" for="username">Username:</label>
+                    <input id="username" #username="ngModel" name="username" type="text" class="form-control" required [(ngModel)]="user.username" >
                 </div>
                 
                 <div class="form-group">
-                    <label class="h5">Name:</label> 
-                    <input formControlName="name" type="text" class="form-control" >
+                    <label class="h5" for="name">Name:</label> 
+                    <input id="name" #name="ngModel" name="name" type="text" class="form-control" required [(ngModel)]="user.name" >
                 </div>
-
+                
                 <div class="form-group">
-                    <label class="h5">Password:</label>
-                    <input formControlName="password" type="password" class="form-control" >
+                    <label class="h5" for="password">Password:</label>
+                    <input id="password" #password="ngModel" name="password" type="password" class="form-control" required [(ngModel)]="user.password" >
                 </div>
 
-                <button type="submit" class="btn btn-block btn-lg btn-success" [disabled]="!form.valid" >Registry</button>
+                <button type="submit" class="btn btn-block btn-lg btn-success" [disabled]="!form.form.valid" >Registry</button>
 
             </form>
         </div>

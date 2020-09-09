@@ -14,45 +14,36 @@ export class RegistryComponent implements OnInit {
 
   user: User;
   users : User[];
-  encontrado :boolean;
-  form: FormGroup;
   constructor(private userService : UserService , private router: Router) { 
   }
 
-  ngOnInit(): void {    
-    this.form = this.createForm();
+  ngOnInit(): void {
+    this.user={};   
     this.userService.getUsers()
       .subscribe(
         (users : User[]) => this.users = users
       )
   }
-  createForm() : FormGroup{
-    return new FormGroup({
-      username: new FormControl("", Validators.required),
-      name: new FormControl("", Validators.required),
-      password: new FormControl("", Validators.required)
-    });
-  }
   get element(){
     return JSON.stringify(this.user);
   }
-  onSubmit(){
-    //this.encontrado=false;
-    const user = this.form.value;
-    //this.users.forEach((element : User)=> {
-      //if(this.user.username == element.username)
-        //return this.encontrado=true;
-    //});
-    //if(!this.encontrado){
+  onSubmit(form){
+    var encontrado=false;
+    for (let element of this.users){
+      if(this.user.username == element.username)
+        encontrado=true;
+    }
+    if(encontrado==false){
       this.userService.addUser({
-        username:user.username,
-        name:user.name,
-        password:user.password 
+        username:this.user.username,
+        name:this.user.name,
+        password:this.user.password 
       })
       .subscribe((data : any) => this.router.navigate(['/login']));
-    //}else{
-      //return window.confirm('Usuario Existente');
-    //}
+    }else{
+      form.reset();
+      return window.confirm('Usuario Existente');
+      
+    }
   }
-  
 }

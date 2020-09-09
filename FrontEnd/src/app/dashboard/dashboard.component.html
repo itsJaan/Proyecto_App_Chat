@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <a class="navbar-brand" href="#">Dashboard</a>
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li>
+          <button type="button" class="btn btn-danger btn-lg btn-block" (click)="logout()">  Logout  </button>
+        </li>
+      </ul>
+    </div>
+</nav>
+<br>
+<!--{{element()}}-->
+<app-channels [channels]="channels" (sendChannel)="showChannel($event)"></app-channels>
+<app-chat-channel [channelSelected]="channelSelected" [userLogged]="userLogged" [messages]="messages" *ngIf="channelSelected">  </app-chat-channel>
+<app-members-channel *ngIf="channelSelected" > </app-members-channel>
+

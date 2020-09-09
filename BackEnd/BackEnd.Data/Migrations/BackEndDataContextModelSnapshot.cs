@@ -33,13 +33,33 @@ namespace BackEnd.Data.Migrations
                     b.ToTable("Channel");
                 });
 
+            modelBuilder.Entity("BackEnd.Data.Entities.Message", b =>
+                {
+                    b.Property<long>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("channelName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("date")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("message")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("user")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Message");
+                });
+
             modelBuilder.Entity("BackEnd.Data.Entities.User", b =>
                 {
                     b.Property<string>("username")
                         .HasColumnType("TEXT");
-
-                    b.Property<long?>("Channelid")
-                        .HasColumnType("INTEGER");
 
                     b.Property<string>("name")
                         .HasColumnType("TEXT");
@@ -49,16 +69,7 @@ namespace BackEnd.Data.Migrations
 
                     b.HasKey("username");
 
-                    b.HasIndex("Channelid");
-
                     b.ToTable("User");
-                });
-
-            modelBuilder.Entity("BackEnd.Data.Entities.User", b =>
-                {
-                    b.HasOne("BackEnd.Data.Entities.Channel", null)
-                        .WithMany("members")
-                        .HasForeignKey("Channelid");
                 });
 #pragma warning restore 612, 618
         }

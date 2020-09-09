@@ -17,7 +17,5 @@ namespace BackEnd.Data.Entities
 
         public string  name { get; set; }
 
-        public List<User> members { get; set; }
-
     }
 }

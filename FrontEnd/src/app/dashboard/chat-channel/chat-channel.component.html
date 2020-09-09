@@ -1,0 +1,16 @@
+<div class="card border-success mb-3" style="width: 22cm; left: 10cm; top:-17cm;height: 40rem;">
+    <div class="card-header">
+        <h5 class="card-title">{{channelSelected.theme}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{channelSelected.name}}</h6>
+    </div>
+    <div class="card-body text-success scroll">
+        <p class="card-text" *ngFor="let message of messages">{{message.user}}: {{message.message}}</p>
+    </div>
+    <div class="input-group mb-3">
+        <form (ngSubmit)="onSubmit(form);" #form="ngForm">    
+            <input style="width:20cm; height: 0.9cm; " type="text" id="message" name="message" required [(ngModel)]="messageText">
+            <input type="submit" class="btn btn-success" value="Enviar">
+        </form>
+        
+    </div>
+</div>
