@@ -24,7 +24,7 @@ namespace BackEnd.Api.Controllers
         [HttpPost]
         public IActionResult Post(UserModel user)
         {
-            var userResult = _userService.addUser(user);
+            var userResult = _userService.AddUser(user);
             if (userResult.ResponseCode != ResponseCode.Success)
                 return BadRequest(userResult.Error);
             return Ok(userResult.Result);

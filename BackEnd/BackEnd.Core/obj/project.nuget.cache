@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "7dHN+Ny8nvVr3lgI8Pi1vpjL+lLgvk7Tee8lNylCC9mFYSjVREvIcDp/aGg/xEDTA5jJkLwhc2Irx0njYt22Iw==",
+  "dgSpecHash": "MecAaKJRIxUass6e7ggnno1qBfABq/63nfyS+MKe6goty7lzUa2KPiW3mwoQlHth/cLBSBYQHYhA7cy+qAAhSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\David\\Desktop\\Proyecto_App_Chat\\BackEnd\\BackEnd.Core\\BackEnd.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\David\\.nuget\\packages\\hangfire\\1.7.12\\hangfire.1.7.12.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\hangfire.aspnetcore\\1.7.12\\hangfire.aspnetcore.1.7.12.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\hangfire.core\\1.7.12\\hangfire.core.1.7.12.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\hangfire.sqlserver\\1.7.12\\hangfire.sqlserver.1.7.12.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.win32.registry\\4.4.0\\microsoft.win32.registry.4.4.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.data.sqlclient\\4.4.0\\system.data.sqlclient.4.4.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.security.accesscontrol\\4.4.0\\system.security.accesscontrol.4.4.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.security.principal.windows\\4.4.0\\system.security.principal.windows.4.4.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

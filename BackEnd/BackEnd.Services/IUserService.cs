@@ -7,7 +7,7 @@ namespace BackEnd.Services
 {
     public interface IUserService
     {
-        ServiceResult<UserModel> addUser(UserModel user);
+        ServiceResult<UserModel> AddUser(UserModel user);
 
         ServiceResult<IEnumerable<UserModel>> getUsers();
     }

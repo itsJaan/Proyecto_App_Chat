@@ -10,9 +10,9 @@ C:\Users\ItsJaan\Desktop\Proyecto_AppVAnguardia_2020\BackEnd\BackEnd.Core\obj\De
 C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Core\bin\Debug\netcoreapp3.1\BackEnd.Core.deps.json
 C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Core\bin\Debug\netcoreapp3.1\BackEnd.Core.dll
 C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Core\bin\Debug\netcoreapp3.1\BackEnd.Core.pdb
-C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Core\obj\Debug\netcoreapp3.1\BackEnd.Core.csprojAssemblyReference.cache
 C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Core\obj\Debug\netcoreapp3.1\BackEnd.Core.AssemblyInfoInputs.cache
 C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Core\obj\Debug\netcoreapp3.1\BackEnd.Core.AssemblyInfo.cs
 C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Core\obj\Debug\netcoreapp3.1\BackEnd.Core.csproj.CoreCompileInputs.cache
 C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Core\obj\Debug\netcoreapp3.1\BackEnd.Core.dll
 C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Core\obj\Debug\netcoreapp3.1\BackEnd.Core.pdb
+C:\Users\David\Desktop\Proyecto_App_Chat\BackEnd\BackEnd.Core\obj\Debug\netcoreapp3.1\BackEnd.Core.csprojAssemblyReference.cache

@@ -17,7 +17,7 @@ namespace BackEnd.Services
         {
             _userRepository = userRepository;
         }
-        public ServiceResult<UserModel> addUser(UserModel user)
+        public ServiceResult<UserModel> AddUser(UserModel user)
         {
             var entity = new User
             {
