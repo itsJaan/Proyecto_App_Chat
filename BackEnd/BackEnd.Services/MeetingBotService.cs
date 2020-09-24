@@ -17,7 +17,7 @@ namespace BackEnd.Services
             _messageRepository = messageRepository;
         }
 
-        public ServiceResult<MessageModel> respondMessage(string channelName)
+        public ServiceResult<MessageModel> RespondMessage(string channelName)
         {
             var entity = new Message
             {

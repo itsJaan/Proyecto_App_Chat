@@ -32,7 +32,7 @@ namespace Sample.API.Controllers
             
             var result = scheduler.Schedule(resultLuis.Result[0],resultLuis.Result[1]);
             
-            RecurringJob.AddOrUpdate<IMeetingBotService>(x => _meetingBotService.respondMessage(channelName), result[1]);
+            RecurringJob.AddOrUpdate<IMeetingBotService>(x => _meetingBotService.RespondMessage(channelName), result[1]);
             return result;
             
         }

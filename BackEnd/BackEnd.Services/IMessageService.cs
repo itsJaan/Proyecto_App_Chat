@@ -8,8 +8,8 @@ namespace BackEnd.Services
 {
     public interface IMessageService
     {
-            ServiceResult<MessageModel> addMessage(MessageModel message);
+            ServiceResult<MessageModel> AddMessage(MessageModel message);
 
-            ServiceResult<IEnumerable<MessageModel>> getMessage(string channelName);
+            ServiceResult<IEnumerable<MessageModel>> GetMessage(string channelName);
     }
 }

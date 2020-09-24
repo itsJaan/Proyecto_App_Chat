@@ -18,10 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Builder\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BackEnd.Api\BackEnd.Api.csproj" />
     <ProjectReference Include="..\BackEnd.Services\BackEnd.Services.csproj" />
   </ItemGroup>

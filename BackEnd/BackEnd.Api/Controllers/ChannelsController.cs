@@ -23,7 +23,7 @@ namespace BackEnd.Api.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var channelResult = _channelService.getChannels();
+            var channelResult = _channelService.GetChannels();
             if (channelResult.ResponseCode != ResponseCode.Success)
                 return BadRequest(channelResult.Error);
             return Ok(channelResult.Result);

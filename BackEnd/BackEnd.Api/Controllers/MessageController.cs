@@ -22,7 +22,7 @@ namespace BackEnd.Api.Controllers
         [HttpPost]
         public IActionResult Post(MessageModel message)
         {
-            var messageResult = _messageService.addMessage(message);
+            var messageResult = _messageService.AddMessage(message);
             if (messageResult.ResponseCode != ResponseCode.Success)
                 return BadRequest(messageResult.Error);
             return Ok(messageResult.Result);
@@ -31,7 +31,7 @@ namespace BackEnd.Api.Controllers
         [HttpGet("{channelName}")]
         public IActionResult Get(string channelName)
         {
-            var messageResult = _messageService.getMessage(channelName);
+            var messageResult = _messageService.GetMessage(channelName);
             if (messageResult.ResponseCode != ResponseCode.Success)
                 return BadRequest(messageResult.Error);
             return Ok(messageResult.Result);

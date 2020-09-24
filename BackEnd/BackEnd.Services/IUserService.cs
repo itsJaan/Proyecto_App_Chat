@@ -9,6 +9,6 @@ namespace BackEnd.Services
     {
         ServiceResult<UserModel> AddUser(UserModel user);
 
-        ServiceResult<IEnumerable<UserModel>> getUsers();
+        ServiceResult<IEnumerable<UserModel>> GetUsers();
     }
 }

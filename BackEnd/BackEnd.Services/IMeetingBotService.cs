@@ -9,6 +9,6 @@ namespace BackEnd.Services
 {
     public interface IMeetingBotService
     {
-        ServiceResult<MessageModel> respondMessage(string channelName);
+        ServiceResult<MessageModel> RespondMessage(string channelName);
     }
 }

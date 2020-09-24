@@ -25,7 +25,6 @@ namespace BackEnd.Api.Controllers.TrelloBotFunctions
             string[] finalResult = new string[5];
             string resultFinal = luisModel.prediction.topIntent;
             int pos = luisModel.prediction.entities.idTablero.Count()-1;
-            Console.WriteLine(resultFinal);
             if (resultFinal == "CrearTablero")
             {
                 string[] arreglo = new string[2];

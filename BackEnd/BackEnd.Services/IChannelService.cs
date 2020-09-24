@@ -9,9 +9,9 @@ namespace BackEnd.Services
 {
     public interface IChannelService
     {
-        ServiceResult<ChannelModel> addChannel(ChannelModel channel);
+        ServiceResult<ChannelModel> AddChannel(ChannelModel channel);
 
-        ServiceResult<IEnumerable<ChannelModel>> getChannels();
+        ServiceResult<IEnumerable<ChannelModel>> GetChannels();
 
     }
 }

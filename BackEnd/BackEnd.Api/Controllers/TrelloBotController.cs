@@ -23,7 +23,6 @@ namespace BackEnd.Api.Controllers
             string resultMessage = "";
 
             var response = luisBot.ParseMessage(message);
-            Console.WriteLine(response.Result[0]);
             if(response.Result[0] == "CrearTablero")
             {
                 trelloBot.AddBoard(response.Result[1]);
@@ -52,12 +51,5 @@ namespace BackEnd.Api.Controllers
 
             return resultMessage;
         }
-       
-        
-        /*
-         * --url 'https://api.trello.com/1/cards/
-         * %7Bid%7D?key=0471642aefef5fa1fa76530ce1ba4c85&token=9eb76d9a9d02b8dd40c2f3e5df18556c831d4d1fadbe2c45f8310e6c93b5c548' \
-        */
-
     }
 }

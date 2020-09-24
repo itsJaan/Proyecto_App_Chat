@@ -17,7 +17,7 @@ namespace BackEnd.Services
             _channelRepository = channelRepository;
         }
 
-        public ServiceResult<ChannelModel> addChannel(ChannelModel channel)
+        public ServiceResult<ChannelModel> AddChannel(ChannelModel channel)
         {
             var entity = new Channel
             {
@@ -30,7 +30,7 @@ namespace BackEnd.Services
             return ServiceResult<ChannelModel>.SuccessResult(channel);
         }
 
-        public ServiceResult<IEnumerable<ChannelModel>> getChannels()
+        public ServiceResult<IEnumerable<ChannelModel>> GetChannels()
         {
             var result = this._channelRepository.All()
                 .Select(x => new ChannelModel

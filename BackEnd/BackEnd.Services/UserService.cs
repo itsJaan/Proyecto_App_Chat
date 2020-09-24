@@ -31,7 +31,7 @@ namespace BackEnd.Services
             return ServiceResult<UserModel>.SuccessResult(user);
         }
 
-        public ServiceResult<IEnumerable<UserModel>> getUsers()
+        public ServiceResult<IEnumerable<UserModel>> GetUsers()
         {
             var result = this._userRepository.All()
                 .Select(x => new UserModel

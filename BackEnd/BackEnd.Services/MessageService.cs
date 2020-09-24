@@ -17,7 +17,7 @@ namespace BackEnd.Services
             _messageRepository = messageRepository;
         }
 
-        public ServiceResult<MessageModel> addMessage(MessageModel message)
+        public ServiceResult<MessageModel> AddMessage(MessageModel message)
         {
             var entity = new Message
             {
@@ -32,7 +32,7 @@ namespace BackEnd.Services
             return ServiceResult<MessageModel>.SuccessResult(message);
         }
 
-        public ServiceResult<IEnumerable<MessageModel>> getMessage(string channelName)
+        public ServiceResult<IEnumerable<MessageModel>> GetMessage(string channelName)
         {
             var result = this._messageRepository.All()
                 .Where(x => x.channelName == channelName)

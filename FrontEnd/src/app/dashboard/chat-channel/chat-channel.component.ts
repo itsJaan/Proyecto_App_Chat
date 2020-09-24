@@ -3,6 +3,7 @@ import { Channel } from 'src/app/shared/channel';
 import { Message } from 'src/app/shared/message';
 import { MessageService } from 'src/app/core/messageService';
 import { MeetingBotService } from 'src/app/core/meetingBotService';
+import { TrelloBotService } from 'src/app/core/trelloBotService';
 import { Router } from '@angular/router';
 
 
@@ -16,13 +17,14 @@ export class ChatChannelComponent implements OnInit {
   messageText : string;
   private _messages: Message[] = [];
   updatedMessages: Message[];
-  result: string[];
+  resultM: string[];
+  resultT: string;
   @Input() channelSelected : Channel;
   @Input() userLogged: string;
   @Input()  messages : Message[];
    
 
-  constructor(private messageService: MessageService,private meetingBotService: MeetingBotService, private router: Router) {
+  constructor(private messageService: MessageService,private meetingBotService: MeetingBotService, private trelloBotService : TrelloBotService, private router: Router) {
   }
   ngOnInit(): void { 
     this.messageText="";
@@ -30,15 +32,31 @@ export class ChatChannelComponent implements OnInit {
   
   onSubmit(form) {
     let dateTime: Date = new Date();
-    this.result = [];
+    this.resultM = [];
+    this.resultT=" ";
     if (this.messageText) {
       let p = this.messageText.indexOf("/meetingbot")
       if (p != -1) {
         let messageR = this.messageText.replace('/meetingbot', '')
         this.meetingBotService.getMessage(messageR, this.channelSelected.name)
           .subscribe(
-            (str: string[]) => this.result = str
+            (str: string[]) => this.resultM = str
           );
+        this.updateMessages_F();
+      }
+      p = this.messageText.indexOf("/trellobot")
+      if(p!= -1){
+        let messageR = this.messageText.replace('/trellobot', '')
+        this.trelloBotService.getTrelloResponse(messageR)
+          .subscribe(
+            (str: string) => this.resultT = str
+          );
+        /*this.messageService.addMessage({
+          message: new String(this.resultM),
+          user: "TrelloBot",
+          channelName: this.channelSelected.name,
+          dateTime : dateTime
+        }).subscribe((data: any) => this.router.navigate(['/dashboard', this.userLogged]));*/
         this.updateMessages_F();
       }
       this.messageService.addMessage({
@@ -57,6 +75,5 @@ export class ChatChannelComponent implements OnInit {
       .subscribe(
         (messages: Message[]) => this.messages = messages
       )
-      //signalR
   }
 }

@@ -33,7 +33,7 @@ namespace BackEnd.Api.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var userResult = _userService.getUsers();
+            var userResult = _userService.GetUsers();
             if (userResult.ResponseCode != ResponseCode.Success)
                 return BadRequest(userResult.Error);
             return Ok(userResult.Result);
